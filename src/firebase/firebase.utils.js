@@ -3,7 +3,7 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyBLEJoZ6Dda1vRu6ml7c0pfBfsAy-IPE4o",
+  apiKey: process.env.GOOGLE_API_KEY,
   authDomain: "crown-db-6614a.firebaseapp.com",
   databaseURL: "https://crown-db-6614a.firebaseio.com",
   projectId: "crown-db-6614a",
